@@ -87,7 +87,7 @@ function App() {
       ))} */}
         <div className="container mt-2 py-3 ">
           {data.map((da) =>
-            da.id == socket.id ? (
+            da.id === socket.id ? (
               <div className="w-fit py-3 px-4 pr-10 bg-blue-300 max-w-sm shadow-sm rounded-2xl mb-2">
                 <p>{da.message}</p>
               </div>
