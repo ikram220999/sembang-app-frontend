@@ -66,7 +66,7 @@ function App() {
           </button>
         </div>
       </div>
-      <div className="container flex flex-row gap-x-1.5 justify-center items-center">
+      {/* <div className="container flex flex-row gap-x-1.5 justify-center items-center">
         <div className="bg-blue-300 py-2 px-4 rounded-full text-blue-600">
           Room 1
         </div>
@@ -79,7 +79,7 @@ function App() {
         <div className="bg-blue-300 py-2 px-4 rounded-full text-blue-600">
           Room 4
         </div>
-      </div>
+      </div> */}
 
       <div className="container shadow-md h-96 mt-2 py-3 px-3 overflow-y-scroll">
         {/* {data.map((da) => (
@@ -118,6 +118,7 @@ function App() {
         </button>
       </div>
     </div>
+    
   );
 }
 
